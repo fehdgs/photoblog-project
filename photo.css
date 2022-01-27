@@ -1,0 +1,28 @@
+body {
+    background: white; 
+}
+
+nav {
+    color: #6c757d;
+
+}
+img {
+    width:400px;
+    height:600px;
+    margin: calc(10%/8);
+}
+
+.slider .image :hover {
+    transform: scale(1.08);
+    position: relative;
+}
+ 
+nav {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    width: 30%;
+    margin-left: calc(10%/8);
+    padding: 1.2em 0;
+}
